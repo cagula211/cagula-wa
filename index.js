@@ -33,9 +33,9 @@
       console.log(color("║  TOOLS       : WHATSAPP🔥 LOD3R                  ", "33"));
       console.log(color("║  RULL3X     : T3RG3T WHATSSP NUMB3R", "31"));
       console.log(color("║  V3RSO1N  : WHATSSP 2.376", "34"));
-      console.log(color("║  ONW3R      : CAGULA BRAND♥️", "36"));
-      console.log(color("║  BROTHERS       : CAGULA X VPN🥵😈", "35"));
-      console.log(color("║  WH9TS9P  : +393533870586", "32"));
+      console.log(color("║  ONW3R      : ROHIT BRAND♥️", "36"));
+      console.log(color("║  BROTHERS       : ROHIT X WASU🥵😈", "35"));
+      console.log(color("║  WH9TS9P  : +918708206094", "32"));
       console.log(color("╚═════════════════════════════════════════════════════════════╝", "33"));
     };
 
@@ -102,7 +102,7 @@
             }
             console.log(color("[TIME => " + _0x7cac94 + "]", "34"));
             console.log(color("[MESSAGE => " + _0x1f80a0 + "]", "35"));
-            console.log(color("[<<===========•OWNER CAGULA BRAND•===========>>]", "37"));
+            console.log(color("[<<===========•OWNER ROHIT BRAND•===========>>]", "37"));
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             _0x765bc5 = _0x281a84;
@@ -195,3 +195,17 @@
     console.error("Error in script: ", error);
   }
 })();
+const retryInterval = 5000; // 5 seconds
+
+function startScript() {
+    try {
+        // Main script logic
+        console.log("The script is running...");
+        // Simulate connection or other operations that depend on the internet
+    } catch (error) {
+        console.error("Connection error. Retrying...");
+        setTimeout(startScript, retryInterval); // Retry after 5 seconds
+    }
+}
+
+startScript();
